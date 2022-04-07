@@ -1,0 +1,30 @@
+- Python
+  - DbApi
+  - SqlAlchemy ORM
+  - sqlite 
+    - client site db.
+    - lighter, filebased database.
+    - resides in mobile application.
+    - similar to shared preferences.
+
+  - Process work with DBapi    
+    - connect to Db
+    - create a cursor
+      - pointer to the rows in the database.
+    - write a query
+    - commit changes
+    - close the connection.
+    - cursor got destroyed after closing.
+  
+  - Datatypes
+    - INTEGER
+      - int, integer
+    - TEXT
+      - char, varchar, text
+    - NONE
+      - BLOB, no datatype specified
+    - REAL
+      - double, float
+  
+  - use CAPS for keywords.
+
